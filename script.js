@@ -1,3 +1,4 @@
+console.log("JS working");
 const heart = document.querySelector(".heart");
 const music = document.getElementById("bgMusic");
 const message = document.getElementById("message");
@@ -55,3 +56,15 @@ function createHearts() {
 }
 // Fireworks coming next
 console.log("Fireworks Ready 🎆");
+const text = "Happy Birthday My Everything ❤️";
+let index = 0;
+
+function typeWriter() {
+    if(index < text.length){
+        document.getElementById("typing").innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeWriter,100);
+    }
+}
+
+typeWriter();
