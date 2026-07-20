@@ -3,42 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For My Everything ❤️</title>
+    <title>Happy Birthday ❤️</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div id="welcome">
 
+    <h1>A Special Surprise ❤️</h1>
+
+    <p>Touch anywhere to continue...</p>
+
+</div>
+<div id="progressContainer">
+    <div id="progressBar"></div>
+</div>
 <div class="container">
 
-    <div class="heart">❤️</div>
+    <div class="heart"></div>
 
     <h2>Touch My Heart ❤️</h2>
-<div id="message" style="display:none;">
 
-    <div class="gallery">
-        <img src="photo1.jpg" class="photo">
-        <img src="photo2.jpg" class="photo">
-        <img src="photo3.jpg" class="photo">
+    <div id="countdown"></div>
+
+    <h1 id="birthdayTitle" style="display:none;">
+        🎉 Happy Birthday My Everything ❤️
+    </h1>
+
+    <div id="message" style="display:none;">
+
+        <div class="gallery">
+
+            <img src="images/photo1.jpg" class="photo">
+
+            <img src="images/photo2.jpg" class="photo">
+
+            <img src="images/photo3.jpg" class="photo">
+
+        </div>
+
+        <p id="letter"></p>
+
     </div>
 
-    <h1>🎉 Happy Birthday My Everything ❤️</h1>
+</div>
+<div id="endingScreen">
+
+    <h1>Happy Birthday My Everything ❤️</h1>
 
     <p>
-        You are the best thing that ever happened to me. ❤️<br><br>
-
-        Every moment with you is my favorite memory.<br><br>
-
-        I promise to love you, support you and make you smile every day. 🥹💕<br><br>
-
-        Happy Birthday, My Love! 🎂🎈
+        Thank you for being<br>
+        the best part of my life. 💖
     </p>
 
-</div>
+    <h2>Forever Yours,</h2>
+
+    <h1>From Your Udhay ❤️</h1>
+<button id="replayBtn">❤️ Replay Surprise ❤️</button>
 </div>
 <audio id="bgMusic">
-    <source src="song.mp3" type="audio/mpeg">
+    <source src="music/song.mp3" type="audio/mpeg">
 </audio>
+
 <script src="script.js"></script>
-<canvas id="fireworks"></canvas>
+
 </body>
 </html>
